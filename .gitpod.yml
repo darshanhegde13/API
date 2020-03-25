@@ -1,5 +1,5 @@
 image:
-  file: .gitpod.Dockerfile
+  file: .gitpod.dockerfile
 tasks:
   - init: npm install
     command: cp config.example.json config.json && npm start
